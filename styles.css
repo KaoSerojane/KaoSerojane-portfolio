@@ -122,11 +122,11 @@ footer {
 
 body.dark-mode {
     background-color: #333333;
-    color: #f9f9f9;
+    color: #8b7676;
 }
 
 body.dark-mode nav {
-    background-color: #222222;
+    background-color: #494242;
 }
 
 #theme-toggle {
