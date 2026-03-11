@@ -134,3 +134,55 @@ body.dark-mode nav {
     cursor: pointer;
     margin: 10px;
 }
+#typing-headline { 
+
+    min-height: 80px; 
+
+    border-right: 3px solid #4CAF50; 
+
+    display: inline-block; 
+
+    animation: blink 0.75s step-end infinite; 
+
+} 
+
+@keyframes blink { 
+
+    from, to { border-color: transparent; } 
+
+    50% { border-color: #4CAF50; } 
+
+} 
+#back-to-top { 
+
+    display: none; 
+
+    position: fixed; 
+
+    bottom: 20px; 
+
+    right: 20px; 
+
+    background-color: #4CAF50; 
+
+    color: white; 
+
+    width: 50px; 
+
+    height: 50px; 
+
+    border-radius: 50%; 
+
+    border: none; 
+
+    font-size: 24px; 
+
+    cursor: pointer; 
+
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2); 
+
+    transition: background-color 0.3s; 
+
+} 
+
+#back-to-top:hover { background-color: #45a049; } 
